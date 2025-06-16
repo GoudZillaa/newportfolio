@@ -1,0 +1,76 @@
+.sidebar {
+  height: 100vh;
+  padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title_section {
+  display: block;
+}
+.text_box {
+  margin-bottom: 4rem;
+  color: white;
+}
+.text_box h1 {
+  background: linear-gradient(90deg, #437cdc, #f34845, #f55409);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* font-sizings */
+.title_section h1 {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+.title_section h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  margin-top: 0.3rem;
+  letter-spacing: -0.025em;
+}
+.title_section p {
+  line-height: 1.5;
+  max-width: 20rem;
+  margin-top: 1rem;
+  color: gray;
+  font-size: 1.2rem;
+}
+.nav_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav_box a {
+  color: white;
+  width: fit-content;
+  text-decoration: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.nav_box a:hover {
+  font-size: 1.4rem;
+  margin: 10px 0;
+  text-shadow: 0 0 15px rgba(0, 247, 255, 0.7);
+}
+.links_section {
+  display: flex;
+  gap: 10px;
+}
+.github_icon:hover{
+  font-size: 2.5rem;
+  color: white;
+  transition: all 0.4s ease;
+}
+.linkedin_icon:hover{
+  font-size: 2.7rem;
+  color: white;
+  transition: all 0.4s ease;
+}

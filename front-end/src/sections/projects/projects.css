@@ -1,0 +1,43 @@
+.projects_container{
+    margin-top:20px
+}
+.project_tile{
+    padding: 0.8rem 1rem;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 8px;
+    width: 90%;
+}
+#thumbnail{
+    width: 35%;
+    border-radius: 6px;
+}
+.projects_info{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.title{
+    text-decoration: none;
+
+}
+.subtitle{
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+.icon_container{
+    display: flex;
+    margin-top: 5px;
+    gap:5px
+}
+.tech_icon{
+    background-color: rgba(0, 132, 255, 0.884);
+    border-radius: 1rem;
+    padding: 0 0.6rem;
+    width: fit-content;
+    height: fit-content;
+    font-size: 0.6rem;
+    color: white;
+}

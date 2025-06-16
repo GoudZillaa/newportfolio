@@ -1,0 +1,25 @@
+ul{
+    line-height: 1.5rem;
+}
+ul.tech_stack li strong{
+    color: gray;
+}
+h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.Skills{
+    max-width: 52vw;
+}
+.description{
+    color: rgb(187, 187, 187);
+}
+h3{
+    text-decoration: underline;
+}
+.soft_skills{
+    color:gray
+}
+.soft_skills strong{
+    color:white
+}
