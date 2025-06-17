@@ -9,7 +9,7 @@ const GradientOverlay = () => {
             const y=e.clientY;
 
             if(overlayRef.current){
-                overlayRef.current.style.background=`radial-gradient(600px at ${x}px ${y}px , rgba(255,255,255 0.15), transparent 80%)`
+                overlayRef.current.style.background=`radial-gradient(600px at ${x}px ${y}px , rgba(255,255,255 ,  0.10), transparent 80%)`
             }
         };
          window.addEventListener('mousemove', handleMouseMove);
