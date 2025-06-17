@@ -6,7 +6,7 @@ const skills = ({id}) => {
     <div className="Skills" id={id}>
       <div className="title">
         <h2>Skills</h2>
-      </div><br />
+      </div>
       <h3>Technical Proficiency</h3>
       <ul className="tech_stack">
         <li><strong>Languages & Frameworks:</strong>  <em>JavaScript, HTML5, CSS3, React.js</em></li>

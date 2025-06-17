@@ -19,7 +19,7 @@
     padding: 0 10px;
     justify-content: space-between;
 }
-.title{
+.project_title{
     text-decoration: none;
 
 }
@@ -40,4 +40,32 @@
     height: fit-content;
     font-size: 0.6rem;
     color: white;
+}
+@media (max-width:768px){
+    .Projects{
+        padding: 0 1rem;
+    }
+    .projects_container {
+  margin-top: 0; /* Reset any default top margin */
+  padding: 0 1rem;
+}
+.project_tile{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.projects_info{
+    padding: 0;
+    width: 60vw;
+}
+#thumbnail{
+    margin: auto 0;
+}
+
+.projects_container .project_title h2 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
 }

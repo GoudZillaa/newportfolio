@@ -5,3 +5,8 @@ a{
 .About ul{
     margin-left: 5%;
 }
+@media (max-width:768px){
+    .About{
+        padding: 0 1rem;
+    }
+}

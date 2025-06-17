@@ -74,3 +74,21 @@
   color: white;
   transition: all 0.4s ease;
 }
+/* ----------mobile-view----------- */
+@media (max-width:768px){
+  .sidebar{
+    justify-content: flex-start;
+    padding: 2rem 0;
+    height:fit-content;
+  }
+  .navigation_section{
+    display: none;
+  }
+  .text_box{
+    margin-bottom: 0;
+  }
+  .links_section{
+    margin-top: 10px;
+  }
+  
+}
