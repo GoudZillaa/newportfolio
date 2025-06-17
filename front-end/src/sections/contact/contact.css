@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+.title_div h2{
+    font-size: 2.5rem;
+}
 .title_div p{
     margin-top: 20px;
     color: gray;
@@ -127,7 +130,11 @@ background-color: rgba(155, 155, 155, 0.4);
 }
 @media (max-width: 768px) {
     .normal_view{
-        padding: 0;
+        padding: 0 1rem;
+        margin-bottom: 20px;
+    }
+    .title_div h2{
+        font-size: 2.2rem;
     }
   .contact_container {
     position: fixed;
