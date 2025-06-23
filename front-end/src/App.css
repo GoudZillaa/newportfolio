@@ -1,54 +1,99 @@
-.App{
+.gridBackground {
+  width: 100vw;
+  height: 100vh;
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #000000;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
+  position: absolute;
+  z-index: 0;
+}
+.appContainer {
   height: 100vh;
   width: 100vw;
-  background-color: black;
   display: flex;
   flex-direction: row;
-  padding:0 6rem;
+  padding: 0 6rem;
   justify-content: space-between;
+  z-index: 10;
 }
 
 .info_section::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
-.sidebar{
-  height:100vh;
-  width:48%;
+.sidebar {
+  height: 100vh;
+  width: 48%;
+  z-index: 10;
 }
-.info_section{
+.info_section {
   overflow-y: scroll;
   scrollbar-width: none;
-  height:100vh;
-  padding:6rem 0;
+  height: 100vh;
+  padding: 6rem 0;
   width: 52%;
   scroll-behavior: smooth;
-  color:white;
+  color: white;
   display: flex;
   flex-direction: column;
   gap: 4rem;
   letter-spacing: 1px;
   line-height: 30px;
   font-size: 1rem;
+  z-index: 10;
 }
 /* mobile view */
 @media (max-width: 768px) {
-  .App {
+  /* .gridBackground{
+    display: none;
+  } */
+  .appContainer {
     flex-direction: column;
     padding: 0;
-    height: auto;       /* Let it grow */
-    overflow-y: auto;   /* Enable vertical scrolling if needed */
+    height: auto; /* Let it grow */
+    overflow-y: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    background-color: black;
   }
 
   .sidebar {
-    height: auto;       /* Sidebar should no longer be 100vh */
+    height: auto; /* Sidebar should no longer be 100vh */
     width: 100%;
     padding: 2rem 1rem; /* Add some spacing if needed */
+    z-index: 10;
   }
 
   .info_section {
     height: 100vh;
     overflow-y: scroll;
-    width:100vw;
+    width: 100vw;
     padding: 0; /* Remove top padding to align sticky top */
+    z-index: 10;
   }
 }

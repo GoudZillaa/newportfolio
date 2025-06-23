@@ -13,14 +13,17 @@ function App() {
 
   return (
     <div className="App"> 
-      <GradientOverlay/>
-      <Sidebar className='sidebar'/>
-      <main className='info_section'>
-        <Skills id='skills'/>
-        <Projects id='projects'/>
-        <About id='about' />
-        <Contact id='contact' />
-      </main>
+      <div className="gridBackground"></div>
+      <div className="appContainer">
+        <GradientOverlay/>
+        <Sidebar className='sidebar'/>
+        <main className='info_section'>
+          <Skills id='skills'/>
+          <Projects id='projects'/>
+          <About id='about' />
+          <Contact id='contact' />
+        </main>
+      </div>
     </div>
   )
 }
