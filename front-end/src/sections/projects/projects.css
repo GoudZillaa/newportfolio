@@ -1,12 +1,16 @@
 .projects_container{
     margin-top:20px
 }
+a{
+    text-decoration: none;
+}
 .project_tile{
     padding: 0.8rem 1rem;
     display: flex;
     align-items: flex-start;
     border-radius: 8px;
     width: 90%;
+    cursor: pointer;
 }
 #thumbnail{
     width: 35%;
@@ -18,14 +22,16 @@
     height: inherit;
     padding: 0 10px;
     justify-content: space-between;
+    margin-top:-10px;
 }
 .project_title{
     text-decoration: none;
-
+    color: white;
 }
 .subtitle{
     font-size: 0.8rem;
     line-height: 1rem;
+    color: gray;
 }
 .icon_container{
     display: flex;

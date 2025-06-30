@@ -9,6 +9,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
+
 const contact = ({ id }) => {
   const [isClicked, setIsClicked] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -74,6 +75,7 @@ const contact = ({ id }) => {
                 <div onClick={() => setIsClicked(false)} className="cancel_button">
                   Cancel
                 </div>
+                
               </div>
             </div>
           </div>

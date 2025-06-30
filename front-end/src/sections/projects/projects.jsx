@@ -1,5 +1,7 @@
 import React from 'react'
-import thumbnail from '../../assets/thumbnail.jpg'
+import ytThumbnail from '../../assets/yt-thumbnail.png'
+import pokedexThumbnail from '../../assets/pokedex-thumbnail.png'
+import uiThumbnail from '../../assets/ui-thumbnail.png'
 import './projects.css'
 
 const projects = ({id}) => {
@@ -10,53 +12,59 @@ const projects = ({id}) => {
     </div>
       <div className="projects_container">
 
-        <div className="project_tile">
-          <img src={thumbnail} alt="thumbnail" id='thumbnail' />
+        <a href="https://yt-clone-frontend-xi.vercel.app/" target='_blank'>
+          <div className="project_tile" >
+          <img src={ytThumbnail} alt="thumbnail" id='thumbnail' />
           <div className="projects_info">
-            <h3 className='project_title'>1v4 Clutches</h3>
-            <p className='subtitle'>there are some awesome Clutches in this video and they are all in coqurer lobby</p>
+            <h3 className='project_title'>Youtube clone full stack</h3>
+            <p className='subtitle'>A youtube clone with basic functionalities working such as login, logout, video upload,video viewing,commenting, etc</p>
             <div className="icon_container">
               <div className="tech_icon">
-              React.js
-            </div>
-            <div className="tech_icon">
-              javascript
-            </div>
+                MERN
+              </div>
+              <div className="tech_icon">
+                MUI
+              </div>
             </div>
           </div>
         </div>
+        </a>
 
-        <div className="project_tile">
-          <img src={thumbnail} alt="thumbnail" id='thumbnail' />
+        <a href="https://poke-stats.vercel.app/" target='_blank'>
+          <div className="project_tile">
+          <img src={pokedexThumbnail} alt="thumbnail" id='thumbnail' />
           <div className="projects_info">
-            <h3 className='project_title'>1v4 Clutches</h3>
-            <p className='subtitle'>there are some awesome Clutches in this video and they are all in coqurer lobby</p>
+            <h3 className='project_title'>Fun PokeDex app</h3>
+            <p className='subtitle'>A pokedex app based on a pokemon api with a visually pleasing design. Search your favourite pokemon and learn their stats like a nerd. </p>
             <div className="icon_container">
               <div className="tech_icon">
-              React.js
-            </div>
-            <div className="tech_icon">
-              javascript
-            </div>
+                React.js
+              </div>
+              <div className="tech_icon">
+                API
+              </div>
             </div>
           </div>
         </div>
+        </a>
 
-        <div className="project_tile">
-          <img src={thumbnail} alt="thumbnail" id='thumbnail' />
+        <a href="https://ui-display.vercel.app/" target='_blank'>
+          <div className="project_tile">
+          <img src={uiThumbnail} alt="thumbnail" id='thumbnail' />
           <div className="projects_info">
-            <h3 className='project_title'>1v4 Clutches</h3>
-            <p className='subtitle'>there are some awesome Clutches in this video and they are all in coqurer lobby</p>
+            <h3 className='project_title'>A Modern UI Library</h3>
+            <p className='subtitle'>A UI library with basic yet modern and attractive looking components. the components are vercatile and comes with different variants.</p>
             <div className="icon_container">
               <div className="tech_icon">
-              React.js
-            </div>
-            <div className="tech_icon">
-              javascript
-            </div>
+                React.js
+              </div>
+              <div className="tech_icon">
+                Tailwindcss
+              </div>
             </div>
           </div>
-        </div>
+          </div>
+        </a>
 
       </div>
     </div>
