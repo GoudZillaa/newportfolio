@@ -69,7 +69,7 @@ const contact = ({ id }) => {
                   <button className="copy_btn" onClick={()=>handleCopy()}>{copied?"copied":"copy"}</button>
                 </p>
                 <div className="resume_link">
-                  <a href='/Abhay_Goud_resume.pdf' rel="noopener noreferrer" target="_blank">Resume</a>
+                  <a href='/resume.pdf' rel="noopener noreferrer" target="_blank">Resume</a>
                   <ArrowOutwardIcon/>
                 </div>
                 <div onClick={() => setIsClicked(false)} className="cancel_button">
